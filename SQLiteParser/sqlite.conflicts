@@ -1,0 +1,1243 @@
+// Parser Conflict Information for grammar file "D:\Work\Sql\SQLiteCompare_src\SQLiteCompare\SQLiteParser\sqlite.y - 01/03/2023 15:43:31"
+
+Shift/Reduce conflict on symbol "IF", parser will shift
+ Reduce 16:	ifnotexists -> /* empty */
+ Shift "IF":	State-5 -> State-521
+  Items for From-state State 5
+    6 create_table: CREATE TABLE . ifnotexists nm dbnm create_table_args withoutrowid 
+  Items for Next-state State 521
+    17 ifnotexists: IF . NOT EXISTS 
+
+Reduce/Reduce conflict in state 36 on symbol "DOT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LP", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ID", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "KEY", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "IF", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ASC", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DESC", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CONFLICT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ABORT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "FAIL", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "IGNORE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "REPLACE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LIKE_KW", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "MATCH", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "JOIN_KW", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CASCADE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "RESTRICT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "INITIALLY", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DEFERRED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "IMMEDIATE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CAST", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "RAISE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BEGIN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "END", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "TRIGGER", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BEFORE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "AFTER", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "INSTEAD", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "OF", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "OFFSET", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "FOR", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "EACH", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ROW", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "INDEXED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CTIME_KW", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "VIEW", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "TEMP", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "TEMPORARY", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DQUOTED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "SQUOTED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BQUOTED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "TQUOTED", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CONSTRAINT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DEFAULT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "NULL", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "NOT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "PRIMARY", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "UNIQUE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CHECK", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "REFERENCES", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DEFERRABLE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "COLLATE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "COMMA", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "RP", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "FOREIGN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "AUTOINCR", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "AND", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "OR", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "GT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "GE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "EQ", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "NE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BITAND", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BITOR", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LSHIFT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "RSHIFT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "PLUS", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "MINUS", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "STAR", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "SLASH", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "REM", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "CONCAT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ISNULL", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "NOTNULL", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "IS", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "BETWEEN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "IN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ESCAPE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "UNION", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "EXCEPT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "INTERSECT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "SEMI", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "EOF", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "HAVING", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ORDER", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "LIMIT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "AS", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "WHEN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "THEN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ELSE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "GROUP", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "USING", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "JOIN", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "WHERE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "FROM", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "ON", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "DELETE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "INSERT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "UPDATE", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "SET", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "VALUES", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 36 on symbol "SELECT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Reduce/Reduce conflict in state 150 on symbol "AND", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "OR", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "EQ", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "NE", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "ISNULL", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "NOTNULL", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "IS", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "NOT", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "LIKE_KW", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "MATCH", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "BETWEEN", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 150 on symbol "IN", parser will reduce production 223
+ Reduce 223:	expr -> expr, between_op, expr, AND, expr
+ Reduce 224:	expr -> expr, AND, expr
+
+Reduce/Reduce conflict in state 231 on symbol "RP", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "COLLATE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "AND", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "OR", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "LT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "GT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "GE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "LE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "EQ", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "NE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BITAND", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BITOR", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "LSHIFT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "RSHIFT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "PLUS", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "MINUS", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "STAR", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "SLASH", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "REM", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "CONCAT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ISNULL", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "NOTNULL", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "IS", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "NOT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "LIKE_KW", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "MATCH", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BETWEEN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "IN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ESCAPE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "COMMA", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "OFFSET", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "UNION", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "EXCEPT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "INTERSECT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "SEMI", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "EOF", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "HAVING", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ORDER", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "LIMIT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "AS", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "WHEN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "THEN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ELSE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "END", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ASC", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "DESC", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "GROUP", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "USING", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "JOIN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "JOIN_KW", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "WHERE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ID", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "KEY", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "IF", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "CONFLICT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ABORT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "FAIL", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "IGNORE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "REPLACE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "CASCADE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "RESTRICT", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "INITIALLY", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "DEFERRED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "IMMEDIATE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "CAST", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "RAISE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BEGIN", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "TRIGGER", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BEFORE", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "AFTER", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "INSTEAD", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "OF", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "FOR", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "EACH", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "ROW", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "INDEXED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "CTIME_KW", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "VIEW", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "TEMP", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "TEMPORARY", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "DQUOTED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "SQUOTED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "BQUOTED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "TQUOTED", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 231 on symbol "FROM", parser will reduce production 133
+ Reduce 277:	term -> CTIME_KW
+ Reduce 133:	exid -> CTIME_KW
+
+Reduce/Reduce conflict in state 262 on symbol "RP", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "COLLATE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "AND", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "OR", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "LT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "GT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "GE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "LE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "EQ", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "NE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BITAND", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BITOR", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "LSHIFT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "RSHIFT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "PLUS", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "MINUS", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "STAR", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "SLASH", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "REM", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "CONCAT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ISNULL", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "NOTNULL", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "IS", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "NOT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "LIKE_KW", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "MATCH", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BETWEEN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "IN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ESCAPE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "COMMA", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "OFFSET", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "UNION", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "EXCEPT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "INTERSECT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "SEMI", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "EOF", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "HAVING", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ORDER", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "LIMIT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "AS", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "WHEN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "THEN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ELSE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "END", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ASC", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "DESC", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "GROUP", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "USING", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "JOIN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "JOIN_KW", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "WHERE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ID", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "KEY", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "IF", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "CONFLICT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ABORT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "FAIL", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "IGNORE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "REPLACE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "CASCADE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "RESTRICT", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "INITIALLY", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "DEFERRED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "IMMEDIATE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "CAST", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "RAISE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BEGIN", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "TRIGGER", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BEFORE", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "AFTER", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "INSTEAD", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "OF", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "FOR", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "EACH", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "ROW", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "INDEXED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "CTIME_KW", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "VIEW", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "TEMP", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "TEMPORARY", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "DQUOTED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "SQUOTED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "BQUOTED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "TQUOTED", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "FROM", parser will reduce production 113
+ Reduce 113:	exid -> JOIN_KW
+ Reduce 214:	expr -> JOIN_KW
+
+Reduce/Reduce conflict in state 262 on symbol "DOT", parser will reduce production 72
+ Reduce 72:	nm -> JOIN_KW
+ Reduce 100:	nm -> JOIN_KW
+
+Shift/Reduce conflict on symbol "INDEXED", parser will shift
+ Reduce 344:	as -> /* empty */
+ Shift "INDEXED":	State-386 -> State-119
+  Items for From-state State 386
+    351 seltablist: stl_prefix nm dbnm . as indexed_opt on_opt using_opt 
+  Items for Next-state State 119
+    51 ids: INDEXED .
+	-lookahead: ASC, DESC, COMMA, AUTOINCR, RP, COLLATE, AND, OR, LT, GT, GE, 
+                LE, EQ, NE, BITAND, BITOR, LSHIFT, RSHIFT, PLUS, MINUS, STAR, 
+                SLASH, REM, CONCAT, ISNULL, NOTNULL, IS, NOT, LIKE_KW, MATCH, 
+                BETWEEN, IN, ESCAPE, OFFSET, UNION, EXCEPT, INTERSECT, SEMI, 
+                EOF, HAVING, ORDER, LIMIT, AS, WHEN, THEN, ELSE, END, GROUP, 
+                USING, JOIN, JOIN_KW, WHERE, ID, KEY, IF, CONFLICT, ABORT, 
+                FAIL, IGNORE, REPLACE, CASCADE, RESTRICT, INITIALLY, DEFERRED, 
+                IMMEDIATE, CAST, RAISE, BEGIN, TRIGGER, BEFORE, AFTER, 
+                INSTEAD, OF, FOR, EACH, ROW, INDEXED, CTIME_KW, VIEW, TEMP, 
+                TEMPORARY, DQUOTED, SQUOTED, BQUOTED, TQUOTED, FROM, LP, 
+                CONSTRAINT, DEFAULT, NULL, PRIMARY, UNIQUE, CHECK, REFERENCES, 
+                DEFERRABLE, ON
+
+Shift/Reduce conflict on symbol "JOIN_KW", parser will shift
+ Reduce 344:	as -> /* empty */
+ Shift "JOIN_KW":	State-386 -> State-100
+  Items for From-state State 386
+    351 seltablist: stl_prefix nm dbnm . as indexed_opt on_opt using_opt 
+  Items for Next-state State 100
+    32 ids: JOIN_KW .
+	-lookahead: ASC, DESC, COMMA, AUTOINCR, RP, COLLATE, AND, OR, LT, GT, GE, 
+                LE, EQ, NE, BITAND, BITOR, LSHIFT, RSHIFT, PLUS, MINUS, STAR, 
+                SLASH, REM, CONCAT, ISNULL, NOTNULL, IS, NOT, LIKE_KW, MATCH, 
+                BETWEEN, IN, ESCAPE, OFFSET, UNION, EXCEPT, INTERSECT, SEMI, 
+                EOF, HAVING, ORDER, LIMIT, AS, WHEN, THEN, ELSE, END, GROUP, 
+                USING, JOIN, JOIN_KW, WHERE, ID, KEY, IF, CONFLICT, ABORT, 
+                FAIL, IGNORE, REPLACE, CASCADE, RESTRICT, INITIALLY, DEFERRED, 
+                IMMEDIATE, CAST, RAISE, BEGIN, TRIGGER, BEFORE, AFTER, 
+                INSTEAD, OF, FOR, EACH, ROW, INDEXED, CTIME_KW, VIEW, TEMP, 
+                TEMPORARY, DQUOTED, SQUOTED, BQUOTED, TQUOTED, FROM, LP, 
+                CONSTRAINT, DEFAULT, NULL, PRIMARY, UNIQUE, CHECK, REFERENCES, 
+                DEFERRABLE, ON
+
+Shift/Reduce conflict on symbol "JOIN_KW", parser will shift
+ Reduce 344:	as -> /* empty */
+ Shift "JOIN_KW":	State-412 -> State-100
+  Items for From-state State 412
+    352 seltablist: stl_prefix LP seltablist_paren RP . as on_opt using_opt 
+  Items for Next-state State 100
+    32 ids: JOIN_KW .
+	-lookahead: ASC, DESC, COMMA, AUTOINCR, RP, COLLATE, AND, OR, LT, GT, GE, 
+                LE, EQ, NE, BITAND, BITOR, LSHIFT, RSHIFT, PLUS, MINUS, STAR, 
+                SLASH, REM, CONCAT, ISNULL, NOTNULL, IS, NOT, LIKE_KW, MATCH, 
+                BETWEEN, IN, ESCAPE, OFFSET, UNION, EXCEPT, INTERSECT, SEMI, 
+                EOF, HAVING, ORDER, LIMIT, AS, WHEN, THEN, ELSE, END, GROUP, 
+                USING, JOIN, JOIN_KW, WHERE, ID, KEY, IF, CONFLICT, ABORT, 
+                FAIL, IGNORE, REPLACE, CASCADE, RESTRICT, INITIALLY, DEFERRED, 
+                IMMEDIATE, CAST, RAISE, BEGIN, TRIGGER, BEFORE, AFTER, 
+                INSTEAD, OF, FOR, EACH, ROW, INDEXED, CTIME_KW, VIEW, TEMP, 
+                TEMPORARY, DQUOTED, SQUOTED, BQUOTED, TQUOTED, FROM, LP, 
+                CONSTRAINT, DEFAULT, NULL, PRIMARY, UNIQUE, CHECK, REFERENCES, 
+                DEFERRABLE, ON
+
+Shift/Reduce conflict on symbol "IF", parser will shift
+ Reduce 16:	ifnotexists -> /* empty */
+ Shift "IF":	State-571 -> State-521
+  Items for From-state State 571
+    7 create_index: CREATE uniqueflag INDEX . ifnotexists nm dbnm ON nm LP idxlist RP 
+  Items for Next-state State 521
+    17 ifnotexists: IF . NOT EXISTS 
+
+Shift/Reduce conflict on symbol "IF", parser will shift
+ Reduce 16:	ifnotexists -> /* empty */
+ Shift "IF":	State-581 -> State-521
+  Items for From-state State 581
+    9 create_view: CREATE temp VIEW . ifnotexists nm dbnm AS select 
+  Items for Next-state State 521
+    17 ifnotexists: IF . NOT EXISTS 
+
+Shift/Reduce conflict on symbol "IF", parser will shift
+ Reduce 16:	ifnotexists -> /* empty */
+ Shift "IF":	State-587 -> State-521
+  Items for From-state State 587
+    294 trigger_decl: temp TRIGGER . ifnotexists nm dbnm trigger_time trigger_event ON fullname foreach_clause when_clause 
+  Items for Next-state State 521
+    17 ifnotexists: IF . NOT EXISTS 
+
+// End conflict information for parser

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Xbim.SQLiteParser</RootNamespace>
+    <AssemblyName>Xbim.SQLiteParser</AssemblyName>
+		<TargetFramework>net6.0</TargetFramework>
+		<Platforms>x86;x64</Platforms>
+	</PropertyGroup>
+  <ItemGroup>
+    <None Remove="sqlite.lst" />
+  </ItemGroup>
+   
+  <ItemGroup>
+    <None Include="sqlite.lex" />
+    <None Include="sqlite.y" />
+  </ItemGroup>
+
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+		<Exec Command="$(ProjectDir)Gplex.exe /verbose /out:$(ProjectDir)SQLiteLexer.cs $(ProjectDir)sqlite.lex" />
+		<Exec Command="$(ProjectDir)Gppg.exe /verbose /gplex /no-lines /conflicts $(ProjectDir)sqlite.y &gt; $(ProjectDir)SQLiteParser.cs" />
+	</Target>
+
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>SQLiteComparer</RootNamespace>
+		<AssemblyName>SQLiteComparer</AssemblyName>
+		<TargetFramework>net6.0</TargetFramework>
+		<Platforms>x86;x64</Platforms>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\SQLiteParser\SQLiteParser.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="e_sqlite3.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
